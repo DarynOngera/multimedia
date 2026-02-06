@@ -1,6 +1,6 @@
 # Mm
 
-As I continue to learn elixir, here is a tutorial project for basic multimedia in elixir using membrane.
+As I continue to learn elixir, here is a tutorial project for basic multimedia manipulation in elixir using membrane.
 The project has a basic pipeline that allows fetching and playback of audio. A volume knob element (filter) for adjusting volume (gain) has also been implemented. 
 
 ## Testing
