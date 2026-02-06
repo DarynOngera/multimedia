@@ -1,21 +1,10 @@
 # Mm
 
-**TODO: Add description**
+As I continue to learn elixir, here is a tutorial project for basic multimedia in elixir using membrane.
+The project has a basic pipeline that allows fetching and playback of audio. A volume knob element (filter) for adjusting volume (gain) has also been implemented. 
 
-## Installation
+## Testing
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `mm` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:mm, "~> 0.1.0"}
-  ]
-end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/mm>.
-
+iex(1) > Membrane.Pipeline.start_link(MyPipeline, mp3_url)
+```
